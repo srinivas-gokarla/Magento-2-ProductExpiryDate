@@ -1,0 +1,15 @@
+<?php
+/** @var Srinivas\ProductExpiryDate\Block\CartItemInfo $block */
+if ($block->isEnabled()):
+    $product = $block->getItem()->getProduct();
+    $expiryData = $product->getData('expiry_date');
+    if ($product->getTypeId() === 'configurable'):
+        $simpleProduct = $block->getChildProduct();
+        $expiryData = $simpleProduct->getData('expiry_date');
+    endif;
+    if ($expiryData && $block->getStoreDateTime() >= $expiryData):
+        echo "<p style='color:red;'>" . $block->getNoticeMessage() . "</p>";
+    endif;
+endif;
+?>
+

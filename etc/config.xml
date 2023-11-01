@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <expirydate>
+            <settings>
+                <enable>0</enable>
+                <display_text>This product was expired. We do not recommend to purchase this, please delete it.</display_text>
+            </settings>
+        </expirydate>
+    </default>
+</config>

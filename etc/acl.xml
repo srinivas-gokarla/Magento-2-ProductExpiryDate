@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Module AdminGrid Acl Resource
+ * @package Module/AdminGrid
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Srinivas_ProductExpiryDate::ProductExpiryDate" sortOrder="10" title="ProductExpiryDate">
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
