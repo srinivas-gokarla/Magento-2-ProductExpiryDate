@@ -24,7 +24,7 @@ Here is the solution: This module is designed to assist in displaying a warning 
 
 <img src="https://imgur.com/HuK0MSw.png" />
 
-<img src="https://imgur.com/1ID69jl.png" />
+<img src="https://imgur.com/2L4eyLg.png" />
 
 <img src="https://i.imgur.com/qrld8e6.png" />
 

@@ -33,7 +33,7 @@ class ExpiryDateAttribute implements DataPatchInterface,PatchVersionInterface
         $eavSetup = $this->eavSetupFactory->create(['setup' => $this->moduleDataSetup]);
         $eavSetup->addAttribute('catalog_product', 'expiry_date', [
             'type' => 'datetime',
-            'label' => 'Expiry Data',
+            'label' => 'Expiry Date',
             'input' => 'date',
             'visible' => true,
             'required' => false,
